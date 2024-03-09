@@ -118,5 +118,5 @@ This project is based on the Harvard CS50 AI course and has been enhanced with a
 
 ## License:
 
-This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) - see the [LICENSE.txt](LICENSE.txt) file for details.
+This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 ```
