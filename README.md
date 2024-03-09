@@ -122,4 +122,10 @@ This project is based on the Harvard CS50 AI course and has been enhanced with a
 ## License:
 
 This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-```
+
+## Contact Information:
+
+If you have any questions, suggestions, or feedback, feel free to reach out:
+
+- **Email:** [khdertaleb1@gmail.com](mailto:khdertaleb1@gmail.com)
+
