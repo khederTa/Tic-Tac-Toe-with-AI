@@ -98,7 +98,12 @@ pip freeze > requirements.txt
 Run the `runner.py` script with your preferred AI algorithm as a command-line argument. For example:
 
 ```bash
-python runner.py Minimax
+python runner.py <algorithm_name>
+```
+
+For Example
+```bash
+python runner.py Memominimax
 ```
 
 Follow on-screen instructions to choose your player and make moves. Enjoy the game and challenge yourself against the AI!
