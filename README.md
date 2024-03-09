@@ -16,11 +16,14 @@ Welcome to the Tic-Tac-Toe with AI repository! This project implements the class
 
 ## Available Algorithms
 
-- Minimax
-- MemoMinimax
-- AlphaBeta
-- DepthLimited
-- AlphaBetaDepthLimited
+- **Minimax:** Minimax is a decision-making algorithm used in two-player games, like Tic-Tac-Toe. It evaluates all possible moves, assuming both players make optimal decisions, and chooses the move that minimizes the maximum possible loss (or maximizes the minimum gain). In the context of Tic-Tac-Toe, it ensures the computer makes the best move possible.
+
+- **MemoMinimax:** MemoMinimax is an extension of the Minimax algorithm that incorporates memoization. Memoization stores the results of expensive function calls and returns the cached result when the same inputs occur again. In the context of Tic-Tac-Toe, MemoMinimax optimizes the algorithm's performance by avoiding redundant calculations, making it more efficient.
+
+- **AlphaBeta:** Alpha-Beta Pruning is an optimization technique applied to the Minimax algorithm to reduce the number of nodes evaluated in the search tree. It eliminates branches that cannot possibly influence the final decision, making the algorithm more efficient. In the context of Tic-Tac-Toe, Alpha-Beta Pruning speeds up the decision-making process without compromising accuracy.
+
+- **DepthLimited:** Depth-Limited Minimax is a variation of the Minimax algorithm that limits the depth of the search tree. Instead of exploring all possible moves until the end of the game, it only considers moves up to a certain depth. This helps manage computation resources and is particularly useful in scenarios where exploring the entire game tree is impractical or unnecessary.
+- **AlphaBetaDepthLimited:** Alpha-Beta Pruning applied to Depth-Limited Minimax. This combination optimizes the search process further by limiting the depth of exploration while employing the pruning technique to eliminate unnecessary branches. In the context of Tic-Tac-Toe, it strikes a balance between accuracy and computational efficiency, making it suitable for games with a large state space.
 
 ## Setting Up a Virtual Environment
 
