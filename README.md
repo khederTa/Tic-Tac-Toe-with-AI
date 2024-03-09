@@ -14,6 +14,14 @@ Welcome to the Tic-Tac-Toe with AI repository! This project implements the class
 1. Install Python and pygame.
 2. Set up a virtual environment using venv to isolate your project's dependencies.
 
+## Available Algorithms
+
+- Minimax
+- MemoMinimax
+- AlphaBeta
+- DepthLimited
+- AlphaBetaDepthLimited
+
 ## Setting Up a Virtual Environment
 
 When developing software with Python, it's essential to use virtual environments to isolate your project's dependencies. Follow these steps to set up a virtual environment using `venv`:
